@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lilita+One&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lilita+One&family=Pacifico&family=Young+Serif&display=swap');
 
 
 html,body {
     margin: 0;
     padding: 0;
+    background-color: #b3cbb9;
+
 }
 
 body {
@@ -11,14 +13,22 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.topnav {
+.header {
+  width: 100%;
+  height: 80px;
+  border: none;
+}
+
+/* .topnav {
   background-color: #542e71;
+  font-family: 'Young Serif', serif;
   height: 80px;
   display: flex;
 }
 
 .topnav-left {
   display: flex;
+  font-family: 'Young Serif', serif;
   align-items: center;
   color:#f2f2f2;
 }
@@ -27,6 +37,7 @@ body {
 }
 
 .topnav-right {
+  font-family: 'Young Serif', serif;
   display: flex;
   font-size: 17px;
   color:#f2f2f2;
@@ -44,6 +55,17 @@ nav {
   padding: 0 20px;
 }
 
+.language-country {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.countries-menu {
+  display: row;
+}
+
 span {
   font-weight: bold;
   font-size: 20px;
@@ -53,16 +75,34 @@ span {
   height: 60px;
   width: 60px;
   margin: 0px 16px 0 10px;
-}
+} */
 
 .chatwith{
   background-color: #b3cbb9;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Young Serif', serif;
   display: flex;
   font-size: 40px;
-  height: 250px;
+  height: 300px;
   justify-content: center;
 }
+
+/* 
+.nation-flag{
+  height: 20px;
+  width: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: ;
+}
+
+.Community{
+  background-color: #f2f2f2;
+  font-family: 'Young Serif', serif;
+  font-size: 40px;
+  display: flex;
+  height:400px;
+  justify-content: center;
+} */
 
 a {
   color: #f2f2f2;
@@ -81,9 +121,11 @@ li {
 }
 
 label {
+  color: #f2f2f2;
   font-weight: bold;
+  text-align: left;
   margin: 10px 10px ;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .card {
@@ -100,3 +142,4 @@ label {
 footer{
   background-color: #542e71;
 }
+

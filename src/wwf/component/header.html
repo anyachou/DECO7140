@@ -5,22 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Header</title>
     <link rel="stylesheet" href="../css/header.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            let $countriesMenu = $('#countries-menu');
+            $('#current-language').click(() => $countriesMenu.css('display', 'block'));
+            $countriesMenu.mouseout(() => $countriesMenu.css('display', 'none'));
+        });
+    </script>
 </head>
 <body>
-    <div>
-        <img src="../images/earth-globe_995153.png"  class="logo" />
-        <div class="card card-position-left">
-            <span>Find Friends</span>
+    <nav>
+        <div class="topnav-left">
+            <img class="logo" src="../images/earth-globe_995153.png" alt=""/>
+            <div><label>Find Friends</label></div>
+            <div><label>Community</label></div>
         </div>
-        <div class="card card-position-left">
-            <span>Community</span>
+        <div class="topnav-right">
+            <div><label>Login</label></div>
+            <div>
+                <div id="current-language">
+                    <img id="current-language-country" class="language-country"
+                         src="../images/united-states-america_323310.png" alt=""/>
+                    <label id="current-language-name">EN</label>
+                </div>
+                <div id="countries-menu" class="countries-menu">
+                    <div id="language-en">
+                        <img id="current-language-country-en" class="language-country"
+                             src="../images/united-states-america_323310.png" alt=""/>
+                        <label id="current-language-name-en">EN</label>
+                    </div>
+                    <div id="language-tw">
+                        <img id="current-language-country-tw" class="language-country" src="../images/taiwan_5922010.png"
+                             alt=""/>
+                        <label id="current-language-tw">TW</label>
+                    </div>
+                    <div id="language-jp">
+                        <img id="current-language-country-jp" class="language-country" src="../images/japan_323308.png"
+                             alt=""/>
+                        <label id="current-language-name-jp">JP</label>
+                    </div>
+                    <div id="language-ar">
+                        <img id="current-language-country-ar" class="language-country"
+                             src="images/united-arab-emirates_323301.png" alt=""/>
+                        <label id="current-language-name-ar">AR</label>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="card card-position-right" id="current-language">
-
-        </div>
-        <div class="card card-position-right">
-            <span>Login</span>
-        </div>
-    </div>
+    </nav>
 </body>
 </html>
