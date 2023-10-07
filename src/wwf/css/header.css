@@ -80,10 +80,25 @@ span {
   }
   
   .language-country {
-    height: 30px;
-    width: 30px;
+    height: 15px;
+    width: 15px;
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .lang-menu{
+    width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .sub-lang-menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .sub-lang-menu label {
+    padding-left: 5px;
   }
   
   .countries-menu {
