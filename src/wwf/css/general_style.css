@@ -15,7 +15,6 @@ body {
   width: 100%;
   height: 80px;
   border: none;
-  
 }
 
 .footer {
@@ -31,6 +30,7 @@ body {
   font-size: 40px;
   height: 300px;
   justify-content: center;
+  border-color: #b3cbb9;
 }
 
 .community{
@@ -40,7 +40,7 @@ body {
   display: flex;
   height:400px;
   justify-content: center;
-} 
+} */
 
 /* .topnav {
   background-color: #542e71;
