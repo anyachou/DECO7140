@@ -19,5 +19,5 @@ $(document).ready(() => {
     });
 
     // Redirect Find Friend
-    $('#find-friend-label').click(() => window.location.href = '../find_friends.html');
+    $('#find-friend-label').click(() => window.parent.location.href = '../find_friends.html');
 });
