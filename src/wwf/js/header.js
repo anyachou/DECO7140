@@ -1,5 +1,5 @@
 $(document).ready(() => {
-
+    // Language Menu
     var lang_menu_display = 'none'
     $('#language-en').css('display', 'flex');
     $('.lang-menu').click(function(){
@@ -17,4 +17,7 @@ $(document).ready(() => {
             lang_menu_display = 'none'
         }
     });
+
+    // Redirect Find Friend
+    $('#find-friend-label').click(() => window.location.href = '../find_friends.html');
 });
