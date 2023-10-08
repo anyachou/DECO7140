@@ -7,52 +7,60 @@
     <link rel="stylesheet" href="../css/header.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-        $(document).ready(function () {
-            let $countriesMenu = $('#countries-menu');
-            $('#current-language').click(() => $countriesMenu.css('display', 'block'));
-            $countriesMenu.mouseout(() => $countriesMenu.css('display', 'none'));
+        $(document).ready(() => {
+
+            var lang_menu_display = 'none'
+            $('#language-en').css('display', 'flex');
+            $('.lang-menu').click(function(){
+                console.log(lang_menu_display)
+                if(lang_menu_display === 'none'){
+                    $('#language-en').css('display', 'none');
+                    $('#language-tw').css('display', 'none');
+                    $('#language-jp').css('display', 'none');
+                    $('#language-ar').css('display', 'none');
+                    $('.lang-menu').css('display', 'flex');
+                    lang_menu_display = 'flex'
+                }else {
+                    $('.lang-menu').css('display', 'none');
+                    $(this).css('display', 'flex');
+                    lang_menu_display = 'none'
+                }
+            });
         });
     </script>
 </head>
 <body>
-    <nav>
-        <div class="topnav-left">
-            <img class="logo" src="../images/earth-globe_995153.png" alt=""/>
-            <div><label>Find Friends</label></div>
-            <div><label>Community</label></div>
+<nav>
+    <div class="topnav-left">
+        <img class="logo" src="../images/country/earth-globe_995153.png" alt=""/>
+        <div><label>Find Friends</label></div>
+        <div><label>Community</label></div>
+    </div>
+    <div class="topnav-right">
+        <!--        <div id="current-lang">-->
+        <div id="language-en" class="lang-menu">
+            <img id="current-language-country-en" class="language-country"
+                 src="../images/country/united-states-america_323310.png" alt=""/>
+            <label id="current-language-name-en">EN</label>
         </div>
-        <div class="topnav-right">
-            <div><label>Login</label></div>
-            <div class="lang-menu">
-                <div id="current-language" class="sub-lang-menu">
-                    <img id="current-language-country" class="language-country"
-                         src="../images/united-states-america_323310.png" alt=""/>
-                    <label id="current-language-name">EN</label>
-                </div>
-                <div id="countries-menu" class="countries-menu">
-                    <div id="language-en" class="sub-lang-menu">
-                        <img id="current-language-country-en" class="language-country"
-                             src="../images/united-states-america_323310.png" alt=""/>
-                        <label id="current-language-name-en">EN</label>
-                    </div>
-                    <div id="language-tw" class="sub-lang-menu">
-                        <img id="current-language-country-tw" class="language-country" src="../images/taiwan_5922010.png"
-                             alt=""/>
-                        <label id="current-language-tw">TW</label>
-                    </div>
-                    <div id="language-jp" class="sub-lang-menu">
-                        <img id="current-language-country-jp" class="language-country" src="../images/japan_323308.png"
-                             alt=""/>
-                        <label id="current-language-name-jp">JP</label>
-                    </div>
-                    <div id="language-ar" class="sub-lang-menu">
-                        <img id="current-language-country-ar" class="language-country"
-                             src="images/united-arab-emirates_323301.png" alt=""/>
-                        <label id="current-language-name-ar">AR</label>
-                    </div>
-                </div>
-            </div>
+        <div id="language-tw" class="lang-menu">
+            <img id="current-language-country-tw" class="language-country" src="../images/country/taiwan_5922010.png"
+                 alt=""/>
+            <label id="current-language-tw">TW</label>
         </div>
-    </nav>
+        <div id="language-jp" class="lang-menu">
+            <img id="current-language-country-jp" class="language-country" src="../images/country/japan_323308.png"
+                 alt=""/>
+            <label id="current-language-name-jp">JP</label>
+        </div>
+        <div id="language-ar" class="lang-menu">
+            <img id="current-language-country-ar" class="language-country"
+                 src="../images/country/united-arab-emirates_323301.png" alt=""/>
+            <label id="current-language-name-ar">AR</label>
+        </div>
+        <!--        </div>-->
+        <div><label>Login</label></div>
+    </div>
+</nav>
 </body>
 </html>

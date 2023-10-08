@@ -1,0 +1,18 @@
+.chatwith {
+    background-color: #b3cbb9;
+    font-family: 'Young Serif', serif;
+    display: flex;
+    font-size: 40px;
+    height: 300px;
+    justify-content: center;
+    border-color: #b3cbb9;
+}
+
+.community {
+    background-color: #f2f2f2;
+    font-family: 'Young Serif', serif;
+    font-size: 40px;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+}
