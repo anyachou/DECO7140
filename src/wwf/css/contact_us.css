@@ -1,0 +1,8 @@
+.chatwith {
+    font-family: 'Young Serif', serif;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    border-color: #b3cbb9;
+    margin-top: -10px;
+}

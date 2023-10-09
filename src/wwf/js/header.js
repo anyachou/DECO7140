@@ -1,7 +1,7 @@
 $(document).ready(() => {
     // Init Language
     const local_lang = localStorage.getItem('lang');
-    if(local_lang === 'EN' || local_lang === undefined){
+    if(local_lang === null || local_lang === 'EN'){
         $('#language-en').css('display', 'flex');
     }else if(local_lang === 'TW'){
         $('#language-tw').css('display', 'flex');

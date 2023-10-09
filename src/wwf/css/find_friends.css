@@ -20,7 +20,8 @@
     justify-content: center;
     row-gap: 2rem;
     column-gap: 2rem;
-    width: 40%
+    width: 40%;
+    padding: 10px 0 10px 0
 }
 
 .lang-menu{
