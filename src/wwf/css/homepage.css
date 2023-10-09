@@ -2,18 +2,97 @@
     background-color: #b3cbb9;
     font-family: 'Young Serif', serif;
     display: flex;
-    font-size: 40px;
-    height: 300px;
+    height: 80px;
     justify-content: center;
     border-color: #b3cbb9;
     margin-top: -10px;
 }
 
 .community {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     font-family: 'Young Serif', serif;
     font-size: 40px;
     display: flex;
-    height: 400px;
+    height: 60px;
     justify-content: center;
+    position: relative;
 }
+
+.worldwide{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+.imgfriends{
+    height: 40%;
+    width: 40%;
+    z-index: -1;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.nation-flag{
+    display: flex;
+    height: 320px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    background-color: #b3cbb9;
+}
+
+.flags{
+    height: 35%;
+    width: 35%;
+}
+
+.practice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Young Serif', serif;
+    background-color: #b3cbb9;
+    height: 65px;
+}
+
+.searchbox{
+    background-color: #ffffff;
+    width: 220px;
+    height: 50px;
+    border-radius: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 6px;
+}
+
+input{
+    width:250px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    padding: 0px 5px;
+}
+
+.search-icon:hover{
+    color:orange;
+    cursor:pointer;
+}
+
+.search-icon{
+    width: 25px;
+    height: 25px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/175/175283.png);
+    background-size: cover;
+}
+
