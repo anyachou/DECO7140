@@ -28,6 +28,91 @@
     width: 40%;
 }
 
+select {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
 
+#infos-grid {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 40px 0
+}
 
+.info-personal-lang {
+    /*display: flex;*/
+    padding-bottom: 30px;
+}
+
+.info-personal-lang-detail {
+    display: flex;
+    padding: 25px 0 -10px 0;
+    margin-top: 15px;
+}
+
+.info-personal-lang-country {
+    display: flex;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.info-personal-lang-country-image {
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+
+}
+
+.info-personal-detail-name-and-location {
+    display: flex;
+    width: 100px;
+}
+
+.info-personal-detail-community {
+    display: flex;
+}
+
+.info-grid {
+    display: flex;
+    width: 50%;
+    min-height: 300px;
+    border: 2px solid black;
+}
+
+.info-detail-col {
+    padding: 15px;
+    margin: 15px;
+}
+
+.info-personal-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    padding-bottom: 30px;
+}
+
+.community-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.info-personal-chat {
+    float: right;
+}
+
+.info-personal-detail {
+    width: 500px;
+}
+
+.info-personal-detail-name {
+    padding-right: 100px;
+}
+
+.info-personal-detail input {
+    width: 90%;
+}
 
