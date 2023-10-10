@@ -34,4 +34,6 @@ $(document).ready(() => {
     $('#find-friend-label').click(() => window.parent.location.href = '../find_friends.html');
     // Redirect Community
     $('#community-label').click(() => window.parent.location.href = '../community.html');
+    // Redirect Homepage
+    $('#wwflogo-label').click(() => window.parent.location.href = '../homepage.html');
 });

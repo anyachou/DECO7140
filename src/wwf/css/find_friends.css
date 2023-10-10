@@ -1,7 +1,7 @@
 .area{
     width: 100%;
     height: 100%;
-    margin-top: -5px;
+    margin-top: -10px;
 }
 
 .dropmenu_grid{
@@ -33,7 +33,7 @@ select {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 150px;
     padding: 5px;
 }
 

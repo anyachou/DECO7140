@@ -2,10 +2,11 @@
     background-color: #b3cbb9;
     font-family: 'Young Serif', serif;
     display: flex;
-    height: 80px;
+    height: 100px;
     justify-content: center;
     border-color: #b3cbb9;
     margin-top: -10px;
+    padding: 20px;
 }
 
 .community {
@@ -40,7 +41,7 @@ h1{
 
 .nation-flag{
     display: flex;
-    height: 320px;
+    height: 300px;
     width: 100%;
     align-items: center;
     flex-direction: column;
@@ -70,7 +71,6 @@ h1{
     border-radius: 30px;
     display:flex;
     align-items: center;
-    justify-content: space-between;
     padding: 0px 20px;
     margin-top: 6px;
 }
@@ -89,31 +89,25 @@ input{
     cursor:pointer;
 }
 
-.search-icon{
+.search-icon {
     width: 25px;
     height: 25px;
     background-image: url(https://cdn-icons-png.flaticon.com/512/175/175283.png);
     background-size: cover;
+    position: absolute; 
+    right: 665px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    cursor: pointer;
 }
 
-.community-roundimg {
-    position: relative;
-    width: 30%;    /* fit col-2 size */
-    padding-top: 100%;    /* height of the circular image is set to be the same as its width, so top padding of the container will be equal to 100% of its width */        
-                          /* maintain a 1:1 aspect ratio (height = width) */
-    overflow: hidden;    /* hide any overflow from the image */
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
+.row{
+    max-width: 18rem;
+    flex-direction: row !important;
+    border-color: black !important;
+    padding: 40px !important;
+    margin: 20px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
-
-.community-roundimg{
-    position: absolute;
-    top: 0;
-    width: 30%;
-    height: 30%;
-    border-radius: 50%;
-    object-fit: cover;    /* maintain aspect ratio and cover the circular container */
-}
-
-
