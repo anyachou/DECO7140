@@ -15,7 +15,7 @@ $(document).ready(() => {
     var lang_menu_display = 'none'
     $('.lang-menu').click(function(){
         console.log(lang_menu_display)
-        if(lang_menu_display === 'none'){
+        if(lang_menu_display === 'none'){ //check if none then hide, if flex then show
             $('#language-en').css('display', 'none');
             $('#language-tw').css('display', 'none');
             $('#language-jp').css('display', 'none');
@@ -24,9 +24,9 @@ $(document).ready(() => {
             lang_menu_display = 'flex'
         }else {
             $('.lang-menu').css('display', 'none');
-            $(this).css('display', 'flex');
+            $(this).css('display', 'flex'); //click then show
             lang_menu_display = 'none'
-            localStorage.setItem('lang', $(this).find('label').text());
+            localStorage.setItem('lang', $(this).find('label').text()); //save in the local 
         }
     });
 

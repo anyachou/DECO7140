@@ -10,6 +10,7 @@
     margin-right:auto;
     margin-left: auto;
     width: 700px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,6 +74,8 @@ select {
 
 .info-personal-detail-community {
     display: flex;
+    justify-content: space-evenly;
+    padding: 0px 20px;
 }
 
 .info-grid {
@@ -110,6 +113,8 @@ select {
 
 .info-personal-detail-name {
     padding-right: 100px;
+    font-size: 40px;
+    font: bold;
 }
 
 .info-personal-detail input {
