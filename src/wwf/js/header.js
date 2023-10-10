@@ -35,5 +35,5 @@ $(document).ready(() => {
     // Redirect Community
     $('#community-label').click(() => window.parent.location.href = '../community.html');
     // Redirect Homepage
-    $('#wwflogo-label').click(() => window.parent.location.href = '../homepage.html');
+    $('#wwflogo').click(() => window.parent.location.href = '../homepage.html');
 });
