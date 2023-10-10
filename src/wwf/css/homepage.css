@@ -19,27 +19,27 @@
     position: relative;
 }
 
-.worldwide{
-    display:flex;
+.worldwide {
+    display: flex;
     justify-content: center;
     align-items: center;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
 }
 
-.imgfriends{
+.imgfriends {
     height: 40%;
     width: 40%;
     z-index: -1;
 }
 
-h1{
+h1 {
     font-size: 40px;
 }
 
-.nation-flag{
+.nation-flag {
     display: flex;
     height: 300px;
     width: 100%;
@@ -49,12 +49,12 @@ h1{
     background-color: #b3cbb9;
 }
 
-.flags{
+.flags {
     height: 35%;
     width: 35%;
 }
 
-.practice{
+.practice {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,19 +64,19 @@ h1{
     height: 65px;
 }
 
-.searchbox{
+.searchbox {
     background-color: #ffffff;
     width: 220px;
     height: 50px;
     border-radius: 30px;
-    display:flex;
+    display: flex;
     align-items: center;
     padding: 0px 20px;
     margin-top: 6px;
 }
 
-input{
-    width:250px;
+input {
+    width: 250px;
     border: none;
     outline: none;
     background: none;
@@ -84,9 +84,9 @@ input{
     padding: 0px 5px;
 }
 
-.search-icon:hover{
-    color:orange;
-    cursor:pointer;
+.search-icon:hover {
+    color: orange;
+    cursor: pointer;
 }
 
 .search-icon {
@@ -94,20 +94,32 @@ input{
     height: 25px;
     background-image: url(https://cdn-icons-png.flaticon.com/512/175/175283.png);
     background-size: cover;
-    position: absolute; 
-    right: 665px; 
-    top: 50%; 
-    transform: translateY(-50%); 
+    position: absolute;
+    right: 665px;
+    top: 50%;
+    transform: translateY(-50%);
     cursor: pointer;
 }
 
-.row{
-    max-width: 18rem;
-    flex-direction: row !important;
-    border-color: black !important;
-    padding: 40px !important;
-    margin: 20px !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+.community-enter-row {
+    display: flex;
+    padding: 40px;
+    margin: 20px;
+    justify-content: center;
+    /*max-width: 18rem;*/
+    /*flex-direction: row !important;*/
+    /*border-color: black !important;*/
+    /*align-items: center !important;*/
+}
+
+.community-enter-info {
+    padding: 10px;
+    margin: 10px;
+}
+
+.community-enter-info-image {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding-bottom: 10px;
 }
