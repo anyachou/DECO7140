@@ -25,6 +25,7 @@ label {
 
 .footer-area {
     display: inline-block;
+    font-family: 'Young Serif', serif;
     flex-direction: column;
     flex: 1;
     box-sizing: border-box;
