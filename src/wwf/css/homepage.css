@@ -1,3 +1,6 @@
+@media (max-width: 768px) {
+}
+
 .chatwith {
     background-color: #b3cbb9;
     font-family: 'Young Serif', serif;
@@ -6,7 +9,7 @@
     justify-content: center;
     border-color: #b3cbb9;
     margin-top: -10px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .community {
@@ -14,7 +17,7 @@
     font-family: 'Young Serif', serif;
     font-size: 40px;
     display: flex;
-    height: 60px;
+    height: auto;
     justify-content: center;
     position: relative;
 }
@@ -49,7 +52,7 @@ h1 {
 }
 
 .flags {
-    height: 35%;
+    height: auto;
     width: 35%;
 }
 
@@ -57,7 +60,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Young Serif', serif;
     background-color: #b3cbb9;
     height: 60px;
@@ -65,7 +68,7 @@ h1 {
 
 .searchbox {
     background-color: #ffffff;
-    width: 220px;
+    width: 15%;
     height: 50px;
     border-radius: 30px;
     display: flex;
@@ -75,7 +78,7 @@ h1 {
 }
 
 input {
-    width: 250px;
+    width: 70%;
     border: none;
     outline: none;
     background: none;

@@ -8,7 +8,8 @@ body {
 ul {
     list-style: none;
     text-align: left;
-    margin-top: 18px;
+    margin: 0;
+    padding: 5 20px;
 }
 
 li {
@@ -19,8 +20,10 @@ li {
 
 label {
     font-weight: bold;
-    margin: 10px 10px ;
-    font-size: 18px;
+    margin: 0;
+    padding: 5 20px;
+    font-size: 20px;
+    text-align: left;
 }
 
 .footer-area {
@@ -31,6 +34,6 @@ label {
     box-sizing: border-box;
     vertical-align: top;
     width: calc(15% - 10px);
-    text-align: center;
-    margin-top: 15px;
+    text-align: left;
+    margin: 15px;
 }
